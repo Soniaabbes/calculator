@@ -1,0 +1,143 @@
+ 
+ .cfb{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+
+
+}  
+
+/* Container Styling */
+
+.Container{ margin-top:300px;margin-right: 150px;margin-left: 100px;
+    position: relative; 
+
+    width: 50%;
+    height: 80%;
+
+
+    /* box-shadow: 1px 2px 2px #592941; */
+    /* border: 0.1em solid #592941; */
+    border-radius: 0.5em;
+  
+    /* background-image: url("Image1.jpg"); */
+
+    
+}
+
+/* Banner Side of Container */
+.banner-side{
+     
+    position: absolute;
+    z-index: 2;
+    right: 55%;
+
+   
+    border-radius: 0.5em;
+
+    width: 35%;
+    height: 10%;
+
+    flex-direction: column;
+
+   
+    opacity: 1;
+
+    color: #EEFCF8;
+    text-align: center;
+
+    transition: 2s;
+ 
+
+}
+
+/* Form Side of Container */
+.form-side{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+ 
+
+    
+    
+
+    width: 50%;
+    height: 50%;
+
+  
+    opacity: 1;
+    
+
+    font-weight: bold;
+    /* background-image: url("Image1.jpg"); */
+    /* color: #035E7B; */
+  
+
+    transition: 2s;
+}
+
+.send-right{
+    right: 0;
+}
+
+.send-left{
+    right: 50%;
+}
+
+
+/* Layout styling of forms, labels, inputs */
+.form-comp{
+    flex-direction: column;
+    /* background-image: url("Image1.jpg"); */
+}
+
+.sign-up-form{
+    width: 90%;
+    flex-direction: column;
+   
+}
+
+.sign-up-form > label{
+    padding: 0.5em;
+    width: 100%;
+   
+
+}
+
+.sign-up-form > label > input{
+    width: 100%;
+  
+}
+
+
+/* All Buttons Styling */
+button {
+    padding: 1em;
+
+    border: 1px solid #EEFCF8;
+    border-radius: 5em;
+    
+    background-color:#0d6efd;
+
+    color: #EEFCF8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+/* All Inputs Styling */
+input {
+    padding: 0.5em;
+    border: 1px solid #035E7B;
+}

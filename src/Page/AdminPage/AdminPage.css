@@ -1,0 +1,25 @@
+/*photo de profil*/
+.profileM{ width :150px;
+    height : 150px;
+   
+-moz-border-radius : 125px;
+    -webkit-border-radius : 125px;
+    border-radius : 125px; 
+margin-top: 50px; 
+margin-left:550px ;} 
+.photoPr{margin-left: 450px; font-family: 'Franklin Gothic Medium'; font-weight: 600; font-size: medium;}
+.name{margin-left: 550px; font-family:Verdana; font-weight: bolder; font-size: 40px;margin-right: 350px;}
+/*description du profil*/
+.description{ margin-top: 50px; border-radius: 5px; margin-left: 450px; width: 400px; height: 80px; font-style: normal; border-color:#3795d1 ;
+border-width: 2px;}
+/*lieu, telephone and email*/
+.information{display: flex; justify-content: space-between; margin-top: 50px;margin-left: 250px;}
+.lieu{display: flex; justify-content: space-between;}
+.adresse{width: 70px; height: 70px; margin-left: 80px;}
+.addressedescrip{margin-left: 20px; width: 250px; height: 70px;margin-right: 20px;; border-radius: 5px;border-color:#3795d1 ;border-width: 2px;}
+.addressCabinet{font-family:Verdana; font-weight: bolder; font-size: 25px;margin-right: 50px; margin-left: 55px;}
+/*boutton pour editer et pour reserver rdv*/
+.subEdit{ display: flex; justify-content: space-between; flex-wrap:wrap; margin:25px} 
+/*boutton save*/
+.submit2{margin-left: 600px;}
+
